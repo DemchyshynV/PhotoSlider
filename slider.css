@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 500px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 1500px;
+    overflow: hidden;
+}
+
+.img{
+    display: flex;
+    transition: .5s;
+}
+
+.arrow{
+    width: 50px;
+    height: 281.250px;
+    background-color: #c0c0c0;
+}
+
+.left{
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 60%;
+}
+
+.right{
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 60%;
+}
+
+.arrow:hover{
+    background-color: gray;
+    cursor: pointer;
+}
